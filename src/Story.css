@@ -1,0 +1,35 @@
+.Story{
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    width: 120px;
+    height: 200px;
+    box-shadow:  0px 5px 17px -9px rgba(0, 0, 0, 0.75) ;
+    border-radius: 10px;
+    margin-left: 10px;
+    transition: transform 10px ease-in;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+
+}
+/* .Story:hover{
+    transform: scale(1.07);
+} */
+.story_avatar{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    margin-top: 30px;
+    border: #1b53ee solid;
+}
+.user_title{
+        padding-top: 60px;
+        padding-left: 10px;
+
+}
+
+
+
+.Story { transition: all .2s ease-in-out; }
+.Story:hover { transform: scale(1.05); }
